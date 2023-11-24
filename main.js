@@ -9,7 +9,7 @@ const gif = document.querySelector('.gif');
 const currentYear = new Date().getFullYear()
 console.log(currentYear)
 
-const christmasDay = new Date(`December 25 ${currentYear} 00:00:00`)
+const christmasDay = new Date(`December 1 ${currentYear} 00:00:00`)
 console.log(christmasDay)
 
 function updadeCountDown() {
