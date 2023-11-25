@@ -85,13 +85,14 @@ body * {
     box-shadow: 9px 9px 18px #89311b, -9px -9px 18px #ff6135;
 }
 
+
 @keyframes flashing {
     0%,
     100% {
-        color: rgb(231, 9, 46)
+        color: #e7092e
     }
     50% {
-        color: rgb(243, 136, 14);
+        color: #f3880e;
     }
 }
 
