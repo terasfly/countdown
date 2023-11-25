@@ -26,10 +26,14 @@ function updadeCountDown() {
     const s = Math.floor((diff % (60 * 1000)) / 1000);
 
 
+   days.textContent = d < 10 ? '0' + d : d
+        // days.style.fontSize = '100px'
+        // days.style.color = 'yellow'
+    days.style.fontSize = '100px';
+    days.style.animationName = 'flashing';
+    days.style.animationDuration = '1s'; // Change the duration as you like
+    days.style.animationIterationCount = 'infinite';
 
-    days.textContent = d < 10 ? '0' + d : d
-     days.style.fontSize = '100px'
-    days.style.color = 'yellow'
     hours.textContent = h < 10 ? '0' + h : h
     minutes.textContent = m < 10 ? '0' + m : m
     seconds.textContent = s < 10 ? '0' + s : s
