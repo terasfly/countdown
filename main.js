@@ -28,6 +28,8 @@ function updadeCountDown() {
 
 
     days.textContent = d < 10 ? '0' + d : d
+     days.style.fontSize = '100px'
+    days.style.color = 'yellow'
     hours.textContent = h < 10 ? '0' + h : h
     minutes.textContent = m < 10 ? '0' + m : m
     seconds.textContent = s < 10 ? '0' + s : s
