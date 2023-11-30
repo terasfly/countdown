@@ -2,7 +2,7 @@ body {
     height: 100vh;
     background: url('santa.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     display: flex;
     flex-direction: column;
