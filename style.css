@@ -78,13 +78,12 @@ body * {
 .image {
     margin-top: 50px;
     width: 700px;
-    height: 220px;
+    height: 350px;
     border-radius: 15px;
     border-radius: 22px;
     background: #cc4928;
     box-shadow: 9px 9px 18px #89311b, -9px -9px 18px #ff6135;
 }
-
 
 @keyframes flashing {
     0%,
