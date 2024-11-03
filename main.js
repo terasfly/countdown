@@ -16,7 +16,7 @@ function updadeCountDown() {
     const currentTime = new Date()
     console.log(currentTime)
     const diff = christmasDay - currentTime
-    console.log(diff)
+        // console.log(diff)
 
     const d = Math.floor(diff / (24 * 60 * 60 * 1000))
 
