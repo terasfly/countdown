@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background: url('krakenimages-liT5AlTmC8I-unsplash.jpg');
+    background: url('santa.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -43,7 +43,6 @@ body * {
     margin: 0 auto;
     text-transform: uppercase;
     animation: flashing 3s infinite;
-    
 }
 
 .time {
@@ -78,8 +77,8 @@ body * {
 
 .image {
     margin-top: 50px;
-       width: 900px;
-    height: 274px;
+    width: 700px;
+    height: 350px;
     border-radius: 15px;
     border-radius: 22px;
     background: #cc4928;
